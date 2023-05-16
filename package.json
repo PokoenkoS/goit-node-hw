@@ -1,0 +1,30 @@
+{
+  "name": "goit-node-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PokoenkoS/goit-node-hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PokoenkoS/goit-node-hw/issues"
+  },
+  "homepage": "https://github.com/PokoenkoS/goit-node-hw#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nanoid": "^3.3.4",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
